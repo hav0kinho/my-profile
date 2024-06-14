@@ -6,4 +6,6 @@
 
 [Docker Hub](https://hub.docker.com/repository/docker/havokinho/my-profile/general)
 
-Comando para rodar imagem: <code>docker run --name my-profile_container --rm -d -p 3000:3000 havokinho/my-profile</code>
+Comandos para rodar imagem:
+<code>docker pull havokinho/my-profile</code>
+<code>docker run --name my-profile_container --rm -d -p 3000:3000 havokinho/my-profile</code>
